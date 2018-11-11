@@ -1,0 +1,383 @@
+* {
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    margin: auto;
+}
+
+.header {
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    background: #ffffff;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 2%;
+}
+
+.nav {
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    width: 960px;
+    margin-left: 10%;
+}
+
+.name {
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    background: #4aaaa5;
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 15px;
+    margin-left: 0;
+    
+    
+}
+
+
+
+body {
+    background-image:  url("../images/background.png")
+}
+
+
+
+
+.contact {
+    float: right;
+    color: gray;
+    margin-right: 0;
+    padding: 10px;
+    height: 35px;
+    padding: 20px;
+
+    
+   
+}
+
+.portfolio {
+    float: right;
+    color: gray;
+    margin-left: 0%;
+    height: 35px;
+    padding: 20px;
+    
+  
+}
+
+
+.about {
+    float: right;
+    color: gray;
+    margin: auto;
+    height: 35px;
+    padding: 20px;
+
+}
+
+.container {
+    width: 895px;
+    /* Due to padding I had to decrease the width for equal alignment with the nav */
+    margin-left: 10%;
+    overflow: auto;
+    background: white;
+    padding: 25px;
+
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+#containerheader {
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    color: #4aaaa5;
+    margin-top: 5px;
+}
+
+img{
+    margin-right: 30px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.philly {
+float: left;
+position: absolute;
+z-index: 1;
+color:white;
+padding-left: 84px;
+padding-right: 84px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+background: #4aaaa5;
+margin-top: 105px;
+
+}
+
+.tennis {
+float: left;
+position: absolute;
+z-index: 1;
+color:white;
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+background: #4aaaa5;
+margin-top: 105px;
+margin-left: 236px;
+}
+
+.basketball {
+float: left;
+position: absolute;
+z-index: 2;
+color:white;
+padding-left: 66px;
+padding-right: 66px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+background: #4aaaa5;
+margin-top: 270px;
+}
+
+.macbook {
+    float: left;
+    position: absolute;
+    z-index: 1;
+    color:white;
+    padding-left: 70.5px;
+    padding-right: 70.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #4aaaa5;
+    margin-top: 270px;
+    margin-left: 236px;
+}
+
+.ps4 {
+    float: left;
+    position: absolute;
+    z-index: 1;
+    color:white;
+    padding-left: 57.5px;
+    padding-right: 57.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #4aaaa5;
+    margin-top: 430px;
+}
+
+
+footer {
+    background: #666666;
+    padding: 20px;
+    border-color: #4aaaa5;
+    width: 100%;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 5px;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    position: sticky;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 60%
+    }
+
+    .header {
+        width: 980px;
+    }
+
+    .nav {
+        width: 980px;
+    }
+
+    .contact {
+        margin-right: 10%;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+* {
+    max-width: 768px;
+}
+
+    .header {
+        max-width: 768px;
+    }
+
+    .container {
+        width: 680px;
+        max-width: 768px;
+        margin-left: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    body {
+        width: 768px;
+    }
+
+    footer {
+        width: 768px;
+    }
+
+    .nav {
+        width: 720px;
+        max-width: 768px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    img {
+        width: 304px;
+    
+    }
+
+    .philly {
+        padding-left: 135.5px;
+        padding-right: 135.5px;
+    }
+
+    .tennis {
+        margin-left: 340px;
+        padding-left: 131.5px;
+        padding-right: 131.5px;
+    }
+
+    .basketball {
+        padding-left: 118px;
+        padding-right: 118px;
+    }
+
+    .macbook {
+        margin-left: 340px;
+        padding-left: 122.5px;
+        padding-right: 122.5px;
+    }
+
+    .ps4 {
+        padding-left: 109px;
+        padding-right: 109px;
+    }
+
+
+
+    
+}
+
+@media screen and (max-width:640px) {
+    .name {
+        position: static;
+        width: 100%;
+        margin-left: 0%;
+        max-width: 640px;
+        left: 0;
+    }
+
+    .header {
+        padding: 0;
+        margin: 0;
+        max-width: 640px;
+        width: 0px;
+
+    }
+
+    .nav {
+        padding: 0;
+    }
+
+    .about, .contact, .portfolio {
+        float: center;
+    }
+
+    .contact {
+       margin-right: 35%;
+    }
+
+    .portfolio {
+        float: center;
+    }
+    
+
+    .container {
+        width: 560px;
+        max-width: 640px;
+        margin-left: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .philly {
+        padding: 4%;
+        padding-left: 263.5px;
+        padding-right: 263.5px;
+        margin-top: 270px;
+    }
+
+    .tennis {
+        padding: 4%;
+        margin-left: 0;
+        padding-left: 259.5px;
+        padding-right: 259.5px;
+        margin-top: 700px;
+    }
+
+    .basketball {
+        padding: 4%;
+        padding-left: 246px;
+        padding-right: 246px;
+        margin-top: 1280px;
+    }
+
+    .macbook {
+        padding: 4%;
+        margin: 0 auto;
+        padding-left: 250.5px;
+        padding-right: 250.5px;
+        margin-top: 1650px;
+    }
+
+    .ps4 {
+        padding: 4%;
+        padding-left: 237px;
+        padding-right: 237px;
+        margin-top: 2250px;
+    }
+
+    footer {
+        width: 640px;
+    }
+
+
+
+}
