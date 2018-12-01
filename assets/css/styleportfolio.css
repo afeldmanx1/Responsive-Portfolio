@@ -197,13 +197,44 @@ footer {
     margin-top: 20px;
 }
 
+@media screen and (max-width: 5000px) {
+    
+    .container {
+        width: 600px;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .nav {
+        width: 980px;
+    }
+
+    .contact {
+        margin-right: 10%;
+    }
+
+    .ps4 {
+        margin-bottom: 10%;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+
+
+}
+
+
 @media screen and (max-width: 980px) {
     .container {
         width: 60%
     }
 
     .header {
-        width: 980px;
+        width: 100%;
     }
 
     .nav {
@@ -227,7 +258,7 @@ footer {
 }
 
     .header {
-        max-width: 768px;
+        width:100%;
     }
 
     .container {
@@ -253,10 +284,9 @@ footer {
         margin-right: 2%;
     }
 
-    img {
+    /* img {
         width: 304px;
-    
-    }
+    } */
 
     .philly {
         padding-left: 135.5px;
@@ -372,10 +402,13 @@ footer {
         padding-left: 237px;
         padding-right: 237px;
         margin-top: 2250px;
+        margin-bottom: 20%;
     }
 
     footer {
         width: 640px;
+        z-index: 10;
+        position: fixed;
     }
 
 
