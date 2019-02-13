@@ -201,6 +201,20 @@ margin-top: 270px;
     margin-top: 600px;
 }
 
+.bamazon {
+    float: left;
+    position: absolute;
+    z-index: 1;
+    color:white;
+    width: 206px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #4aaaa5;
+    margin-top: 600px;
+    margin-left: 236px;
+}
+
 footer {
     background: #666666;
     padding: 20px;
@@ -216,6 +230,7 @@ footer {
     height: 20px;
     position: sticky;
     margin-top: 20px;
+    z-index: 100;
 }
 
 @media screen and (max-width: 5000px) {
