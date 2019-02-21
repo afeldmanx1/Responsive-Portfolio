@@ -215,6 +215,19 @@ margin-top: 270px;
     margin-left: 236px;
 }
 
+.family {
+    float: left;
+    position: absolute;
+    z-index: 1;
+    color:white;
+    width: 206px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #4aaaa5;
+    margin-top: 760px;
+}
+
 footer {
     background: #666666;
     padding: 20px;
